@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    background-color: rgb(212, 173, 230);
+    height: 45px;
+    text-align: right;
+    border:solid 1px;
+    border-color: rgb(255, 255, 255);
+    padding-top: 25px; 
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    position: sticky;
+}   
+.logo{
+    float: left;
+    height: 100%;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.buscador{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+nav a{
+    color:  indigo;
+    font-size: 24px;
+    text-decoration-line: none;   
+    margin: 15px;   
+}
+body{
+    background-image: url(../img/fondoppal.jpg) ;
+    background-size: cover;   
+    margin-bottom: 200px; 
+}
+.bodycont{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+.bodybox1, .bodybox2{
+    display: block;
+    height: 100%;
+    width: 50%;
+    padding: 20px;
+    padding-top: 0px;
+    border: solid indigo 3px;
+}
+#quien, #como, #materias{
+    text-align: center;
+}
+.imgindex{
+    height: 200px;
+    width: 100%;
+}
+.imgindex img{
+    size-adjust: cover ;}
+h1{
+    text-align: center;
+    font-size: 72px;
+}
+form{
+    font-size: 32px;
+    align-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+form input{
+    width: 300px;
+    height: 32px;
+}
+form select{
+    height: 32px;
+}
+.cardindex{
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    align-content: space-between;
+}
+.card__imghome{
+    height: 100%;    
+}
+.contacto__btn{
+    align-items: center;
+    border-radius: 25px;
+    width: 500px;
+    background-color: rgb(212, 173, 230);
+}
+.listapreguntas{
+    text-align: center;
+    
+}
+.footcont{
+    display: flex;
+    flex-direction: row;
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    justify-content: space-evenly;
+    text-decoration-line: none;
+}
+.footbox1{
+    width: 25%;
+    display: inline;
+    text-align: left;
+    text-decoration-style: none;
+}
+.footbox1 ul li{
+    list-style: none;
+}
+.footbox1 ul li a{ 
+    text-decoration-line: none;
+    color: indigo;
+}
+.footbox2{
+    display: inline;
+    width: 25%;    
+}
+.footbox2 ul li{
+    text-decoration-line: none;
+    color: indigo;
+    list-style: none;
+}
+footer{
+    position:fixed;
+    bottom: 0%;
+    width: 100%;
+}
+.footbox3{
+    align-items: center;
+}
+.footbox3 legend, .footbox2 legend, .footbox1 legend{
+    text-decoration-line: underline;
+    color: indigo;
+}
