@@ -5,18 +5,17 @@
 }
 nav{
     background-color: rgb(212, 173, 230);
-    height: 45px;
     text-align: right;
     border:solid 1px;
     border-color: rgb(255, 255, 255);
-    padding-top: 25px; 
+    padding-top: 5px; 
     background-image: url(../img/fondo.jpg);
     background-size: cover;
     position: sticky;
 }   
 .logo{
     float: left;
-    height: 100%;
+    height: 50px;
     padding-top: 0px;
     margin-top: 0px;
 }
@@ -27,9 +26,9 @@ nav{
 }
 nav a{
     color:  indigo;
-    font-size: 24px;
+    font-size: 12px;
     text-decoration-line: none;   
-    margin: 15px;   
+    margin: 5px;   
 }
 body{
     background-image: url(../img/fondoppal.jpg) ;
@@ -60,35 +59,38 @@ body{
     size-adjust: cover ;}
 h1{
     text-align: center;
-    font-size: 72px;
+    font-size: 24px;
 }
 form{
-    font-size: 32px;
+    font-size: 12px;
     align-content: center;
     padding-left: 15%;
     padding-right: 15%;
 }
 form input{
     width: 300px;
-    height: 32px;
+    height: 12px;
 }
 form select{
-    height: 32px;
+    height: 12px;
 }
-.cardindex{
-    display: flex;
-    flex-direction: row;
-    height: 350px;
-    align-content: space-between;
+.productcard{
+    height: auto;
 }
 .card__imghome{
-    height: 100%;    
+    height: 200px;
+    object-fit: fill;
+}
+.card{
+    height: 100%;
 }
 .contacto__btn{
     align-items: center;
     border-radius: 25px;
-    width: 500px;
+    width: 150px;
+    height: min-content;
     background-color: rgb(212, 173, 230);
+    padding: 0px;
 }
 .listapreguntas{
     text-align: center;
@@ -135,4 +137,20 @@ footer{
 .footbox3 legend, .footbox2 legend, .footbox1 legend{
     text-decoration-line: underline;
     color: indigo;
+}
+.addcart{
+    border-radius: 25px;
+    width: 150px;
+    height: min-content;
+    background-color: rgb(212, 173, 230);
+    padding: 0px;
+    color: indigo;
+    border: solid 1px;
+}
+.addcart:hover{
+    background-color: #fafafa;
+color: blue;
+}
+.card-body{
+    margin: auto;
 }
