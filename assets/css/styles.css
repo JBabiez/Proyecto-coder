@@ -154,3 +154,17 @@ color: blue;
 .card-body{
     margin: auto;
 }
+.nocart{
+    border-radius: 25px;
+    width: 150px;
+    height: min-content;
+    background-color: grey;
+    padding: 0px;
+    color: #fafafa;
+    border: solid 1px;
+}
+.modal-content{
+    background-color: rgb(212, 173, 230);
+    border-radius: solid 3px;
+    border-color: indigo;
+}
