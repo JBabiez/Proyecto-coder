@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+nav {
+  background-color: rgb(212, 173, 230);
+  text-align: right;
+  border: solid 1px;
+  border-color: rgb(255, 255, 255);
+  padding-top: 5px;
+  background-image:   url(../assets/img/fondo.jpg) ;
+  background-size: cover;
+  position: sticky;
+}
+nav a {
+  color: indigo;
+  font-size: 12px;
+  text-decoration-line: none;
+  margin: 5px;
+}
+
+.logo {
+  float: left;
+  height: 50px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.buscador {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+body {
+  background-image: url(../assets/img/fondoppal.jpg);
+  background-size: cover;
+  margin-bottom: 200px;
+}
+
+.bodycont {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.bodybox1 {
+  display: block;
+  height: 100%;
+  width: 50%;
+  padding: 20px;
+  padding-top: 0px;
+  border: solid indigo 3px;
+}
+
+.bodybox2 {
+  display: block;
+  height: 100%;
+  width: 50%;
+  padding: 20px;
+  padding-top: 0px;
+  border: solid indigo 3px;
+}
+
+#quien {
+  text-align: center;
+}
+
+#como {
+  text-align: center;
+}
+
+#materias {
+  text-align: center;
+}
+
+.imgindex {
+  height: 200px;
+  width: 100%;
+}
+.imgindex img {
+  size-adjust: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+form {
+  font-size: 12px;
+  align-content: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+form input {
+  width: 300px;
+  height: 12px;
+}
+form select {
+  height: 12px;
+}
+
+.productcard {
+  height: auto;
+}
+
+.card__imghome {
+  height: 200px;
+  object-fit: fill;
+}
+
+.card {
+  height: 100%;
+}
+
+.contacto__btn {
+  align-items: center;
+  border-radius: 25px;
+  width: 150px;
+  height: min-content;
+  background-color: rgb(212, 173, 230);
+  padding: 0px;
+}
+
+.listapreguntas {
+  text-align: center;
+}
+
+.footcont {
+  display: flex;
+  flex-direction: row;
+  background-image: url(../assets/img/fondo.jpg);
+  background-size: cover;
+  justify-content: space-evenly;
+  text-decoration-line: none;
+}
+
+.footbox1 {
+  width: 25%;
+  display: inline;
+  text-align: left;
+  text-decoration-style: none;
+}
+.footbox1 ul li {
+  list-style: none;
+}
+.footbox1 ul li a {
+  text-decoration-line: none;
+  color: indigo;
+}
+.footbox1 legend {
+  text-decoration-line: underline;
+  color: indigo;
+}
+
+.footbox2 {
+  display: inline;
+  width: 25%;
+}
+.footbox2 ul li {
+  text-decoration-line: none;
+  color: indigo;
+  list-style: none;
+}
+.footbox2 legend {
+  text-decoration-line: underline;
+  color: indigo;
+}
+
+footer {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+}
+
+.footbox3 {
+  align-items: center;
+}
+.footbox3 legend {
+  text-decoration-line: underline;
+  color: indigo;
+}
+
+.addcart {
+  border-radius: 25px;
+  width: 150px;
+  height: min-content;
+  background-color: rgb(212, 173, 230);
+  padding: 0px;
+  color: indigo;
+  border: solid 1px;
+}
+.addcart:hover {
+  background-color: #fafafa;
+  color: blue;
+}
+
+.card-body {
+  margin: auto;
+}
+
+.nocart {
+  border-radius: 25px;
+  width: 150px;
+  height: min-content;
+  background-color: grey;
+  padding: 0px;
+  color: #fafafa;
+  border: solid 1px;
+}
+
+.modal-content {
+  background-color: rgb(212, 173, 230);
+  border-radius: solid 3px;
+  border-color: indigo;
+}
+
+/*# sourceMappingURL=style.css.map */
